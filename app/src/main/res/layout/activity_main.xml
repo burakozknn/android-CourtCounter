@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@mipmap/basketball"
+    tools:context="com.example.android.courtcounter.MainActivity">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.courtcounter.MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#EEEEEE"
+            android:text="Chicago"
+            android:fontFamily="cursive"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#EEEEEE"
+            android:textSize="60sp"
+            android:layout_gravity="center" />
+
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="#9E9E9E"
+            android:textSize="29sp"
+            android:layout_marginTop="150dp"
+            android:onClick="threepoints"
+            android:text="+3 points"
+            android:textAllCaps="false"
+             />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9E9E9E"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:onClick="twopoints"
+            android:text="+2 points"
+            android:textAllCaps="false"
+            android:textSize="27sp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="#9E9E9E"
+            android:onClick="onepoints"
+            android:text="free throw"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <Chronometer
+        android:id="@+id/simpleChronometer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_weight="0.92"
+        android:onClick="threepoints"
+        android:text="00:00"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#EEEEEE"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.courtcounter.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"
+        android:text="Miami"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+        <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#EEEEEE"
+        android:textSize="60sp"
+        android:layout_gravity="center" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="#9E9E9E"
+            android:textSize="29sp"
+            android:layout_marginTop="150dp"
+            android:onClick="threepoint"
+            android:text="+3 points"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9E9E9E"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:onClick="twopoint"
+            android:text="+2 points"
+            android:textAllCaps="false"
+            android:textSize="27sp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="#9E9E9E"
+            android:onClick="onepoint"
+            android:text="free throw"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
