@@ -2,5 +2,5 @@
 
 ## Court Counter Application
 
-This app allows you to keep score for opposing teams period. To start and pause the clock simply click the chronometer. To add new points click on the corresponding value period.
+This app allows you to keep score for opposing teams. To start and pause the clock simply click the chronometer. To add new points click on the corresponding value.
 
